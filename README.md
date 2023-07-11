@@ -1,1 +1,1 @@
-# geog_328_lab03_privateschools
+# geog495_lab03_earthquakes
