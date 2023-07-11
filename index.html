@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ <head>
+    <meta charset="utf-8">
+    <title>Seattles Private Schools List</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
+    <link rel="stylesheet" href="css/index.css"/>
+ </head>
+ <body>
+    <main id="container">
+        <div id="side-panel">
+            <h2>Seattle's Private Schools</h2>
+           <button>Sort by Zipcode</button>
+
+           <table>
+               <tr>
+                   <th>ID</th>
+                   <th>Zipcode</th>
+                   <th>School Website</th>
+               </tr>
+           </table>
+        </div>
+        <div id="map"></div>
+    </main>
+    <script src="geoJs/getGeoSeattle.js"></script>
+ </body>   
+<html>    
+
